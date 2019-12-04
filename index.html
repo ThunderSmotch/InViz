@@ -6,12 +6,11 @@
 
   <title>Test Page</title>
   <meta name="description" content="IntViz">
-  <meta name="author" content="Bla?">
+  <meta name="author" content="ThunderSmotch">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
   
   <link rel="stylesheet" type="text/css" href="js/tikzjax/fonts.css">
- 
   <script src="js/tikzjax/tikzjax.js"></script>
   
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -23,37 +22,13 @@
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
-  Yo this is a test.
+
+  Index Page. <br>
   
-  <p>
-  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
-  </p>
+  <a href="test.html">Test Page</a>
+  <br>
   
-  
-  \[
-\require{action}
-\def\longest{x(x+1) + 1(x+1)}
-\def\click{\rlap{\enclose{roundedbox}{\small\text{next step}}}\hphantom{\longest}}
-\def\={\phantom{{}={}}}
-(x+1)^2
-\toggle
-  {\begin{aligned}[t]& = \click\end{aligned}}
-  {\begin{aligned}[t]& = (x+1)(x+1)\\[3px]&\=\click\end{aligned}}
-  {\begin{aligned}[t]& = (x+1)(x+1)\\[3px]& = x(x+1) + 1(x+1)\\&\=\click\end{aligned}}
-  {\begin{aligned}[t]& = (x+1)(x+1)\\[3px]& = x(x+1) + 1(x+1)\\[3px]& = (x^2+x) + (x+1)\\[3px]&\=\click\end{aligned}}
-  {\begin{aligned}[t]& = (x+1)(x+1)\\[3px]& = x(x+1) + 1(x+1)\\[3px]& = (x^2+x) + (x+1)\\[3px]& = x^2 + (x + x) + 1\\[3px]&\=\click\end{aligned}}
-  {\begin{aligned}[t]& = (x+1)(x+1)\\[3px]& = x(x+1) + 1(x+1)\\[3px]& = (x^2+x) + (x+1)\\[3px]& = x^2 + (x + x) + 1\\[3px]& = x^2 + 2x + 1\end{aligned}}
-\endtoggle
-\]
-  
-  <script type="text/tikz">
-  \begin{tikzpicture}
-    \draw (1,0) circle (1in);
-    \draw (2,0) circle (1in);
-  \end{tikzpicture}
-</script>
-  
+  <div class="tip" markdown="1">Have **fun!**</div>
+
 </body>
 </html>

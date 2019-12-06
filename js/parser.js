@@ -1,1 +1,1 @@
-$("#body").load("test.wex");
+$("#body").load("test2.html");

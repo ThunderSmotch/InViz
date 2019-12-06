@@ -1,0 +1,1 @@
+$("#body").load("test.wex");

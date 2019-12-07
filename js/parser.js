@@ -7,6 +7,8 @@ $(document).ready(function(){
             e.preventDefault();
             $("#content").load(e.target.href);
             setTimeout(function(){
+            MathJax.texReset();
+            MathJax.typesetClear();
             MathJax.typesetPromise();
         }, 100);
         });
